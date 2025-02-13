@@ -2,7 +2,7 @@ name: Sonar Cloud Code Test
 on:
   push:
     branches:
-      - development
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:

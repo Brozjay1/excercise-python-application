@@ -3,7 +3,7 @@ name: Snyk Container Test
 on:
   push:
     branches:
-      - development
+      - main
 
 permissions:
   contents: read
